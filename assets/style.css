@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+#footer-container {
+    width: 100vw;
+    height: 403px;
+    background-color: aqua;
+    background-image: url("./bgk-footer.png");
+    background-size: 100% auto;
+    
+}
+
+#footer-content {
+    display: flex;
+    font-size: 14px;
+    color: white;
+    padding-top: 30px;
+    height: 100px;
+    /* width: 600px; */
+    margin: 240 auto;
+    gap: 10px
+}
+
+.footer-el{
+    width: 200px;
+    flex-grow: 1;
+}
+
+.icon-ctn {
+    display: flex;
+}
+
+.icon-ctn > img{
+    width: 14px;
+    height: 14px;
+}
